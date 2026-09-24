@@ -1,6 +1,6 @@
 # Adan Anaya
 
-**Data scientist with 20 years inside global technology organizations — the last three spent
+**Data scientist with 20 years inside global technology organisations — the last three spent
 building sales analytics and predictive models on top of them.** Based in Guadalajara, Mexico,
 working remotely.
 
