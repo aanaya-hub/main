@@ -14,6 +14,9 @@ Three projects below, newest first. **If you only open one, open the first one.*
 
 ## 1. [saas-revenue-analytics](https://github.com/aanaya-hub/saas-revenue-analytics)
 
+**Live demo: [saas-revenue-analytics.onrender.com](https://saas-revenue-analytics.onrender.com)** — a
+Docker container on a free tier, so if it has been idle the first load takes about a minute.
+
 A fictional B2B SaaS business built from nothing: **200 customers over four months**, a star schema of
 six tables, every file under 800 rows. The dataset is then deliberately broken in **eight documented
 ways** — duplicated rows, impossible values, a broken foreign key — cleaned, and modelled three ways.
@@ -29,8 +32,8 @@ interactive dashboard.
 - **Clustering.** There are no natural customer segments, and the project says so: HDBSCAN labels
   every customer as noise, and the segments you already had don't separate in feature space.
 
-Plus **36 tests**, a five-tab Dash dashboard, and a README that reports **three apparent findings as
-artefacts** because the confidence intervals say they are noise.
+Plus **40 tests**, a five-tab Dash dashboard **deployed as a Docker container**, and a README that
+reports **three apparent findings as artefacts** because the confidence intervals say they are noise.
 
 `Python` · `pandas` · `scikit-learn` · `statsmodels` · `XGBoost` · `SQLite` · `Plotly` · `Dash`
 
@@ -63,3 +66,11 @@ between suppliers is smaller than the uncertainty within each one.
 **What you get from reading it:** a reference written for people entering the field. No prior
 knowledge assumed, no paywall, no assumed maths. Each entry says what the term means and why anyone
 would care about it.
+
+---
+
+**Working in:** Python (pandas, NumPy, scikit-learn), SQL, matplotlib, seaborn, Plotly, Git<br>
+**Certified:** IBM Data Science Professional Certificate, 2026<br>
+**Looking for:** a fully remote data science or analytics role with modelling ownership
+
+[LinkedIn](https://www.linkedin.com/in/adan-anaya-ds) · [aanaya8@proton.me](mailto:aanaya8@proton.me)
