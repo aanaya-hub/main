@@ -2,19 +2,17 @@
 
 **Data scientist with 20 years inside global technology organisations — the last three building sales analytics and predictive models.** Guadalajara, Mexico, remote.
 
-Five projects. **Open the first.**
-
 ---
-
-### [experiment-design-lab](https://github.com/aanaya-hub/experiment-design-lab)
-
-A clearance-pricing experiment designed before it was analysed: four treated SKUs against forty controls, sample size computed from measured variance. The effect lands within 2% of a known truth — and the project says what the design cannot answer.
 
 ### [saas-revenue-analytics](https://github.com/aanaya-hub/saas-revenue-analytics)
 
 A fictional B2B SaaS business built from nothing, broken in eight documented ways, cleaned, then modelled three ways. The library's default churn threshold costs **$53,700** against a cost-optimal 0.20.
 
 Live demo: https://saas-revenue-analytics.onrender.com
+
+### [experiment-design-lab](https://github.com/aanaya-hub/experiment-design-lab)
+
+A clearance-pricing experiment designed before it was analysed: four treated SKUs against forty controls, sample size computed from measured variance. The effect lands within 2% of a known truth — and the project says what the design cannot answer.
 
 ### [holding-360](https://github.com/aanaya-hub/holding-360)
 
