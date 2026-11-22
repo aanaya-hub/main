@@ -1,46 +1,46 @@
 # Adan Anaya
 
-**Senior data analyst — twenty years inside global technology organisations, the last three in revenue
-operations and sales analytics.** Guadalajara, Mexico · open to remote.
+**Senior data analyst. Eighteen years inside global technology organizations, the last three in revenue operations, sales analytics and finance.** Guadalajara, Mexico. Open to remote.
 
-SQL · Python (pandas, NumPy, scikit-learn) · Tableau · Power BI (DAX) · Vertica · Git
+`SQL` `Python` `pandas` `scikit-learn` `Tableau` `Power BI` `Vertica`
 
-Everything below is here because it is checkable: every number is in the repository, every defect is
-documented, and where the data could not support a conclusion, that is written down too.
+Every project below is here because it can be checked. The numbers are in the repository, the defects are documented and counted, and wherever the data could not support a conclusion, that is written down instead.
 
 ---
 
-### [saas-revenue-analytics](https://github.com/aanaya-hub/saas-revenue-analytics)
+## The three to start with
 
-A fictional B2B SaaS business built from nothing, broken in eight documented ways, cleaned, then modelled
-three ways. The default churn threshold of 0.50 costs **$53,700** against a cost-optimal 0.20.
+### [Three companies, one set of books](https://github.com/aanaya-hub/holding-360)
 
-Live demo: https://saas-revenue-analytics.onrender.com
+A consolidated warehouse over three fictional Mexican importers, handed over as CONTPAQi-style exports carrying fourteen documented defects. A bank export drops the ledger link on thirty-eight movements, so anyone working from the statement alone reports MXN 3.75M receivable where the ledger says MXN 1.56M. An exchange-rate slider moves two products from keep to withdraw.
 
-### [experiment-design-lab](https://github.com/aanaya-hub/experiment-design-lab)
+[Live dashboard](https://holding-360.onrender.com) · Python · pandas · SQLite · Dash · Docker
 
-A clearance-pricing experiment designed before it was analysed: four treated SKUs against forty controls,
-sample size computed from measured variance. The effect lands within 2% of a known truth — and the
-project states plainly what the design cannot answer.
+---
 
-### [holding-360](https://github.com/aanaya-hub/holding-360)
+### [The cost of a wrong threshold](https://github.com/aanaya-hub/saas-revenue-analytics)
 
-Three sets of books in one warehouse, handed over as CONTPAQi-style exports with **fourteen documented
-defects**. A bank export drops the ledger link on **38 movements**, so the statement alone reports
-**MXN 2.74 M** outstanding that was paid.
+A fictional B2B SaaS business built from nothing, deliberately broken in eight documented ways, cleaned, then modelled three ways. The library default churn threshold catches 68 percent of leavers. The cost-optimal one catches 95, and the difference is worth USD 53,700.
 
-Live demo: https://holding-360.onrender.com
+[Live dashboard](https://saas-revenue-analytics.onrender.com) · Python · scikit-learn · Dash · Docker
 
-### [mx-machinery-imports](https://github.com/aanaya-hub/mx-machinery-imports)
+---
 
-Two systems disagree over **1,458 rows describing 1,440 machinery shipments**. **Twenty defect classes**
-documented, **1,765 ambiguous dates** resolved without guessing — and a published statement of what it
-could not conclude.
+### [A test designed before it was run](https://github.com/aanaya-hub/experiment-design-lab)
 
-### [data-science-glossary](https://github.com/aanaya-hub/data-science-glossary)
+A clearance-pricing experiment with the design and the sample size written down before the analysis. Four treated SKUs against forty controls, variance measured rather than assumed, and the result lands within 1.6 percent of a known truth. It also states what the design cannot answer.
 
-**800 plain-language definitions for people entering data science and data engineering — no prior
-knowledge assumed.**
+Python · SciPy · Jupyter
+
+---
+
+## Also here
+
+**[Reconciling two systems that disagree](https://github.com/aanaya-hub/mx-machinery-imports).** 1,458 rows of China to Mexico machinery imports, twenty defect classes documented, 1,765 ambiguous dates resolved without guessing, and the suppliers proven unrankable.
+
+**[Data science glossary](https://github.com/aanaya-hub/data-science-glossary).** 800 plain-language definitions for people entering data science and data engineering. No prior knowledge assumed.
+
+**[An R exercise in inference](https://github.com/aanaya-hub/r-inference-lab).** Sample size, difference-in-differences and the cluster bootstrap. The scaffold and the verifier are complete.
 
 ---
 
